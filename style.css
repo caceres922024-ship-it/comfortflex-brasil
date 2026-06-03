@@ -1,0 +1,235 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f8f9fb;
+color:#222;
+line-height:1.6;
+}
+
+.top-bar{
+background:#111;
+color:white;
+text-align:center;
+padding:12px;
+font-size:14px;
+font-weight:bold;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:50px;
+padding:60px 10%;
+background:white;
+flex-wrap:wrap;
+}
+
+.hero-content{
+max-width:550px;
+}
+
+.hero h1{
+font-size:48px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.hero-image img{
+width:100%;
+max-width:450px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:25px;
+}
+
+.badges span{
+background:#eef3f8;
+padding:10px 14px;
+border-radius:30px;
+font-size:14px;
+font-weight:bold;
+}
+
+.price-box{
+margin-bottom:25px;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+font-size:20px;
+}
+
+.price-box h2{
+color:#0a8f3d;
+font-size:42px;
+}
+
+.cta-button{
+display:inline-block;
+background:#0a8f3d;
+color:white;
+text-decoration:none;
+padding:18px 30px;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.cta-button:hover{
+transform:translateY(-2px);
+background:#087832;
+}
+
+section{
+padding:70px 10%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+}
+
+.benefits-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.benefit-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.gallery{
+background:white;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery-grid img{
+width:100%;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.offer{
+background:#111;
+color:white;
+text-align:center;
+}
+
+.offer-old{
+text-decoration:line-through;
+opacity:0.7;
+font-size:22px;
+}
+
+.offer h3{
+color:#00ff84;
+font-size:48px;
+margin:15px 0;
+}
+
+.offer ul{
+list-style:none;
+margin:30px 0;
+}
+
+.offer li{
+margin:10px 0;
+font-size:18px;
+}
+
+.testimonials{
+background:#f4f6f8;
+}
+
+.testimonial{
+background:white;
+padding:25px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.faq details{
+background:white;
+padding:20px;
+border-radius:12px;
+margin-bottom:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.06);
+}
+
+.faq summary{
+cursor:pointer;
+font-weight:bold;
+}
+
+.final-cta{
+text-align:center;
+background:white;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:768px){
+
+```
+.hero{
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.price-box h2{
+    font-size:34px;
+}
+
+section h2{
+    font-size:28px;
+}
+
+.cta-button{
+    width:100%;
+    text-align:center;
+}
+```
+
+}

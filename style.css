@@ -233,3 +233,21 @@ section h2{
 ```
 
 }
+.mobile-hero-image {
+  display: none;
+}
+
+.mobile-hero-image img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 18px;
+  margin: 18px auto;
+  display: block;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 768px) {
+  .mobile-hero-image {
+    display: block;
+  }
+}

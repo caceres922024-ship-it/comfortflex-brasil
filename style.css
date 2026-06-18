@@ -271,3 +271,7 @@ section h2{
     display: block;
   }
 }
+.cta-center {
+  text-align: center;
+  margin: 30px 0;
+}

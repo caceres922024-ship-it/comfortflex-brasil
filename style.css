@@ -273,17 +273,20 @@ section h2{
 }
 .whatsapp-float {
     position: fixed;
-    width: 58px;
-    height: 58px;
+    width: 60px;
+    height: 60px;
     bottom: 20px;
     right: 20px;
     background: #25D366;
-    color: white;
     border-radius: 50%;
-    text-align: center;
-    font-size: 28px;
-    line-height: 58px;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 9999;
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
 }

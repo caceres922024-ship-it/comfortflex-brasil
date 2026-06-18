@@ -246,6 +246,26 @@ section h2{
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
 }
 
+.offer-alert {
+  background: #fff3cd;
+  color: #8a5a00;
+  font-weight: 800;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 12px 0 8px;
+  text-align: center;
+}
+
+.offer-alert-red {
+  background: #ffe5e5;
+  color: #b00020;
+  font-weight: 900;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 8px 0 15px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .mobile-hero-image {
     display: block;

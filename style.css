@@ -271,7 +271,7 @@ section h2{
     display: block;
   }
 }
-.whatsapp-float {
+whatsapp-float {
     position: fixed;
     bottom: 20px;
     right: 20px;

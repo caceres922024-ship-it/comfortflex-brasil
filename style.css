@@ -278,6 +278,10 @@ section h2{
     display: block;
   }
 }
+.oferta-final{
+  text-align:center;
+  padding:70px 10%;
+}
 .whatsapp-float {
     position: fixed;
     width: 60px;

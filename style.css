@@ -45,11 +45,12 @@ font-size:18px;
 margin-bottom:20px;
 }
 
+.hero-image{
+  display:none;
+}
+
 .hero-image img{
-width:100%;
-max-width:450px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.15);
+  display:none;
 }
 
 .badges{

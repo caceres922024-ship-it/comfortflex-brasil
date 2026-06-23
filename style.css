@@ -80,11 +80,17 @@ margin-bottom:25px;
 }
 
 .old-price{
-text-decoration:line-through;
-color:#888;
-font-size:25px;
+  text-decoration:line-through;
+  color:#555;
+  font-size:32px;
+  font-weight:bold;
 }
 
+.economia{
+  color:#e53935;
+  font-size:22px;
+  font-weight:bold;
+}
 .price-box h2{
 color:#0a8f3d;
 font-size:42px;

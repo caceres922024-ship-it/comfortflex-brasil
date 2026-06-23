@@ -103,7 +103,13 @@ background:#087832;
 section{
 padding:70px 10%;
 }
+section:last-of-type{
+  text-align:center;
+}
 
+section:last-of-type .cta-center{
+  text-align:center;
+}
 section h2{
 text-align:center;
 margin-bottom:40px;

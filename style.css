@@ -23,6 +23,13 @@ font-weight:bold;
 .hero{
 display:flex;
 align-items:center;
+
+  .price-box .old-price,
+.old-price{
+  font-size:24px !important;
+  font-weight:700 !important;
+  color:#666 !important;
+}
 justify-content:center;
 gap:50px;
 padding:60px 10%;

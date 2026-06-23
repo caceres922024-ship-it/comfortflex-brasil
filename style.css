@@ -87,9 +87,9 @@ margin-bottom:25px;
 }
 
 .economia{
-  color:#e53935;
-  font-size:22px;
-  font-weight:bold;
+  color:#e53935 !important;
+  font-size:22px !important;
+  font-weight:bold !important;
 }
 .price-box h2{
 color:#0a8f3d;
